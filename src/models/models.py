@@ -3,7 +3,7 @@ class Bakery:
         self.name = name
 
 
-class Cliente:
+class Client:
     def __init__(self, name: str, phone: str, state: str) -> None:
         self.name = name
         self.phone = phone
