@@ -3,7 +3,7 @@ from src.models.models import Client
 from src.models.repositories.clients_repository import client_repository
 
 
-class ClientRegister:
+class ClientRegisterController:
     def insert(self, new_client_information: Dict) -> Dict:
         try:
             client = self.create_client_entity(new_client_information)

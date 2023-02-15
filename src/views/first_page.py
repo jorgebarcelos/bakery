@@ -3,7 +3,7 @@ def first_page():
     Bakery System
 
     * Register Cliente          [1]
-    * Resiter Product           [2]
+    * Register Product          [2]
     * Show all Products         [3]
     * Show all Clients by State [4]
     * Delete Product            [5]

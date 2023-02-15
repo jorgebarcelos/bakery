@@ -7,6 +7,7 @@ class ClientRepository:
 
     def insert_client(self, client: any):
         self.client_list.append(client)
+        print(self.client_list)
 
     def return_all_clients(self) -> List:
         return self.client_list

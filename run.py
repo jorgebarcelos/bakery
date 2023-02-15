@@ -1,4 +1,4 @@
-from src.main.constructor.introduction_process import introduction_process
+from src.main.process_handler import start
 
 if __name__ == '__main__':
-    introduction_process()
+    start()

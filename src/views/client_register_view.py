@@ -4,7 +4,7 @@ from typing import Dict
 
 class ClientRegisterViews:
     def registry_client_view(self) -> str:
-        self.__clear()
+        # self.__clear()
 
         print('Insert new client \n\n')
         name = input('Type the client name: ')
@@ -15,7 +15,7 @@ class ClientRegisterViews:
         return new_client_informations
 
     def registry_client_success(self, client_registry: Dict) -> None:
-        self.__clear()
+        # self.__clear()
 
         message = f'''
         Client registred
@@ -27,7 +27,7 @@ class ClientRegisterViews:
         print(message)
 
     def registry_client_fail(self, error: str) -> None:
-        self.__clear()
+        # self.__clear()
 
         message = f'''
             Erro on insert client
