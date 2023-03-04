@@ -1,4 +1,4 @@
-from typing import Dict, List
+from typing import Dict
 from src.models.models import Client
 from src.models.repositories.clients_repository import client_repository
 
@@ -33,3 +33,5 @@ class ClientRegisterController:
                 "state": new_client_information["state"],
             },
         }
+
+client_register_controller = ClientRegisterController()

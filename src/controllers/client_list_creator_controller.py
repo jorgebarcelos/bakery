@@ -10,7 +10,7 @@ class ClientListCreator:
         except Exception as exception:
             return {'success': False, 'error': str(exception)}
 
-    def get_all_clients() -> List:
+    def get_all_clients(self) -> List:
         clients = client_repository.return_all_clients()
         if clients is []:
             raise Exception('No registred clients')
@@ -18,3 +18,6 @@ class ClientListCreator:
 
     def format_response(self, client_list: List) -> Dict:
         return {'success': True, 'client_list': client_list}
+
+
+client_list_creator = ClientListCreator()
